@@ -1,0 +1,87 @@
+body {
+  color: #4072C3;
+}
+
+#page {
+  min-height:100vh; /* 1 */
+  display:flex; /* 2 */
+  flex-direction:column; /* 3 */
+}
+
+#page-header {
+  height:50px;
+}
+
+#page-content {
+  flex-grow:1; /* 4 */
+}
+
+#nav-menu {
+  background-color: #4072C3;
+  border:none;
+  color: white;
+
+  .navbar-nav {
+    a {
+      color : white;
+
+      &:hover {
+        font-weight : bold;
+        background-color : transparent;
+      }
+    }
+
+    li {
+      &:hover {
+        background-color : transparent;
+      }
+    }
+  }
+  .navbar-toggle {
+    .icon-bar {
+      background-color: white;
+    }
+
+  }
+}
+
+#home {
+  color : white;
+  background:url('/img/back-expertus.jpg');
+  background-size: cover;
+  padding-top:30px;
+  padding-bottom: 30px;
+  width:100%;
+  margin: auto;
+  text-align: center;
+  .flip-card {
+    width:150px;
+    display: table;
+    margin: 0 auto;
+  }
+
+  a {
+    margin-top : 10px;
+  }
+}
+
+#gamePersons {
+  display: table;
+  margin: 0 auto;
+  .game-card {
+    width:150px;
+    height:205px;
+    float:left;
+    border : 2px solid white;
+  }
+}
+
+.gameQuestion {
+  margin-bottom : 15px;
+
+  a {
+    padding-left : 15px;
+    padding-right : 15px;
+    margin-left : 20px;
+  }
+}

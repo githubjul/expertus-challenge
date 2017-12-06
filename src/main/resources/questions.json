@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "key": "man"
+  },
+  {
+    "id": 2,
+    "key": "woman"
+  },
+  {
+    "id": 3,
+    "key": "teeth"
+  },
+  {
+    "id": 4,
+    "key": "noEar"
+  },
+  {
+    "id": 5,
+    "key": "oneEar"
+  },
+  {
+    "id": 6,
+    "key": "twoEars"
+  },
+  {
+    "id": 7,
+    "key": "beard"
+  },
+  {
+    "id": 8,
+    "key": "shirt"
+  },
+  {
+    "id": 9,
+    "key": "checkShirt"
+  }
+]

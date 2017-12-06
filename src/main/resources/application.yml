@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: "off"
+  mvc:
+    favicon:
+      enabled: false
+    locale-resolver: fixed
+    locale: fr
+logging:
+  level:
+    root: warn
+    ca:
+      expertus: debug
+expertus:
+  game:
+    maxPersons: 30
+
+
