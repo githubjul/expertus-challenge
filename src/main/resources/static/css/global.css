@@ -72,10 +72,11 @@ body {
 
 /* line 68, ../global.scss */
 #gamePersons {
+  max-width: 950px;
   display: table;
   margin: 0 auto;
 }
-/* line 71, ../global.scss */
+/* line 72, ../global.scss */
 #gamePersons .game-card {
   width: 150px;
   height: 205px;
@@ -83,11 +84,11 @@ body {
   border: 2px solid white;
 }
 
-/* line 79, ../global.scss */
+/* line 80, ../global.scss */
 .gameQuestion {
   margin-bottom: 15px;
 }
-/* line 82, ../global.scss */
+/* line 83, ../global.scss */
 .gameQuestion a {
   padding-left: 15px;
   padding-right: 15px;

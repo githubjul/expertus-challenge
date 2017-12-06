@@ -75,7 +75,6 @@ expertus.game = {
         var container = $("#gamePersons");
         container.hide();
         container.html("");
-        var cpt = 0;
         persons.forEach(function(person)  {
             container.append("<div id=\"person-"+person.id+"\" class=\"game-card exp-flip\" data-trigger=\"manual\" data-axis=\"x\"'>\n" +
                 "                <div class=\"front\">\n" +
@@ -86,10 +85,6 @@ expertus.game = {
                 "                <img src=\"/img/trombi/"+person.picto+".jpg\" class=\"img-responsive\" />\n" +
                 "                </a></div>\n" +
                 "                </div>");
-                cpt++;
-                if(cpt%6 == 0) {
-                    container.append("<div class='clearfix'></div>")
-                }
         });
         expertus.functions.initComponents(container);
         container.show();
