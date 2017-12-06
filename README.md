@@ -38,6 +38,7 @@ Quelques détails :
 * Javascript : fonctionnement avec des espaces de noms (packages) pour éviter tout risque de collisions dans le nommage des méthodes
 * Sass : utilisation de sass, même si pour cet exemple je n'en tire pas réellement partie
 * Grunt : mise en place de process de minification/merge de js/scss/css afin d'optimiser la gestion des ressources statiques
+* Responsive : fonctionne aussi bien sur mobile que sur desktop
 
 
 ###CICD
