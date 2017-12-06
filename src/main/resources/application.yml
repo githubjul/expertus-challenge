@@ -4,7 +4,6 @@ spring:
   mvc:
     favicon:
       enabled: false
-    locale-resolver: fixed
     locale: fr
 logging:
   level:
@@ -13,6 +12,6 @@ logging:
       expertus: info
 expertus:
   game:
-    maxPersons: 30
+    maxPersons: 24
 
 
