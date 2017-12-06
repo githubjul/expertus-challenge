@@ -1,6 +1,6 @@
-#Julien's expertus challenge
+# Julien's expertus challenge
 
-##Le défi Expertus
+## Le défi Expertus
 
 Le défi était ouvert, puisque la seule contrainte était de présenter une page "Hello Expertus"
 
@@ -11,13 +11,13 @@ Une fois cette page réalisée, j'ai eu envie de faire un petit jeu. Je vous lai
 Nb : Au premier lancement, il est normal d'avoir un temps d'attente de quelques secondes, car l'instance du serveur s'arrête automatiquement en cas d'inactivité. Il faut donc qu'elle redémarre.
 
 
-##Côté technique
+## Côté technique
 
 La demande était d'avoir un back-end en Java.
 
 Aucune contrainte n'était précisée pour la parrtie front-end
 
-###Back-end : Spring Boot
+### Back-end : Spring Boot
 
 Mon back-end est basé sur Spring Boot, l'architecture présentée est telle que j'ai l'habitude de le faire.
 
@@ -30,7 +30,7 @@ Quelques détails :
 * Utilisation de Lombok : moins de code inutile à écrire [Infos sur Lombok](https://projectlombok.org/)
 * RestController : transmission d'infos au front-end via des flux Json
 
-###Frond-end : jQuery/Bootstrap
+### Frond-end : jQuery/Bootstrap
 
 La partie front-end se veut relativement simple. Je ne suis pas un expert en Angular/ReactJs, donc je suis resté sur des technologies que je maitrise.
 
@@ -41,7 +41,7 @@ Quelques détails :
 * Responsive : fonctionne aussi bien sur mobile que sur desktop
 
 
-###CICD
+### CICD
 
 Dans une logique d'organisation "DevOps" le projet est bâti dans un environnement type CiCd
 
