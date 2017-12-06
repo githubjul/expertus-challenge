@@ -10,7 +10,7 @@ logging:
   level:
     root: warn
     ca:
-      expertus: debug
+      expertus: info
 expertus:
   game:
     maxPersons: 30

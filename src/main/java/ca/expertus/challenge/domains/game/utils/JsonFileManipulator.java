@@ -6,27 +6,17 @@ import lombok.extern.log4j.Log4j2;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 @Log4j2
 public class JsonFileManipulator {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
-    public static boolean saveToFile(String file, Object elements) {
-
-        try {
-            MAPPER.writeValue(new File(file), elements);
-            return true;
-        } catch (IOException e) {
-            log.error(e);
-            return false;
-        }
-    }
-
-    public static <T> T fromFileToObject(File file, TypeReference<T> typeRef) {
+    public static <T> T fromFileToObject(URL url, TypeReference<T> typeRef) {
         T t = null;
         try {
-            t = MAPPER.readValue(file, typeRef);
+            t = MAPPER.readValue(url, typeRef);
         } catch (IOException e) {
             log.error(e);
         }
