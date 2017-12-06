@@ -16,10 +16,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="nb-menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <#if .locale == "fr">
-                            <li><a href="/?lang=en"><@spring.message "menu.englishVersion" /></a></li>
-                        <#else>
+                        <#if .locale == "en">
                             <li><a href="/?lang=fr"><@spring.message "menu.frenchVersion" /></a></li>
+                        <#else>
+                            <li><a href="/?lang=en"><@spring.message "menu.englishVersion" /></a></li>
                         </#if>
                         <li><a href="/game/"><@spring.message "menu.presentation" /></a></li>
                         <li><a href="/game/start"><@spring.message "menu.newGame" /></a></li>
