@@ -13,5 +13,7 @@ logging:
 expertus:
   game:
     maxPersons: 24
+  analytics:
+    googleAnalytics: UA-111037315-1
 
 
